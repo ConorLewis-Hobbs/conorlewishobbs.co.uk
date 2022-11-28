@@ -1,0 +1,1294 @@
+/**
+*
+*  Theme Name: Conor Lewis-Hobbs
+*  Author: Conor Lewis-Hobbs
+*  Author URI: https://conorlewishobbs.co.uk
+*
+*  Version: 0.0.1
+*  Text Domain: conorlewishobbs
+*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --text-color: #000000;
+    --background-color: rgb(255, 255, 255);
+    --font-size: (12px);
+    --section-background-color: #FAF9F6;
+    --section-padding: 20px;
+    --section-border-radius: 8px;
+    --input-width: 20em;
+    --input-width-radio-check-box: 2em;
+}
+
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    font-size: var(--font-size);
+    width: 100%;
+}
+
+form {
+    text-align: left;
+    border-radius: 5px;
+}
+
+section {
+    background-color: var(--section-background-color);
+    padding: var(--section-padding);
+    border-radius: var(--section-border-radius);
+}
+
+input[type=text] {
+    width: var(--input-width);
+    height: 3em;
+    border-radius: 5px;
+    padding: 12px 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+input[data-list] {
+    width: var(--input-width);
+    height: 3em;
+    border-radius: 5px;
+    padding: 12px 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+#marital-status,
+#nationality,
+#ethnic-origin,
+#religion {
+    width: var(--input-width);
+    height: 3em;
+    border-radius: 5px;
+    padding: 12px 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+input[type=checkbox] {
+    width: var(--input-width-radio-check-box);
+    height: 2em;
+    border-radius: 5px;
+    padding: 12px 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+label {
+    font-size: 1.5em;
+    padding: 12px 10px;
+}
+
+input[type=date] {
+    width: var(--input-width);
+    height: 3em;
+    border-radius: 5px;
+    padding: 12px 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+input[type=tel] {
+    width: var(--input-width);
+    height: 3em;
+    border-radius: 5px;
+    padding: 12px 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+input[type=e-mail] {
+    width: var(--input-width);
+    height: 3em;
+    border-radius: 5px;
+    padding: 12px 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+input[type=number] {
+    width: var(--input-width);
+    height: 3em;
+    border-radius: 5px;
+    padding: 12px 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+textarea {
+    border-radius: 5px;
+    width: 100%;
+    height: 150px;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.address {
+    border-radius: 5px;
+    width: 50%;
+    height: 100px;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+#title {
+    width: var(--input-width);
+    height: 3em;
+    border-radius: 5px;
+    padding: 12px 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+input[type=submit] {
+    width: var(--input-width);
+    height: 3em;
+    border-radius: 5px;
+    padding: 12px 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+.radio-button-container,
+.checkbox-button-container {
+    display: inline-flex;
+    align-items: center;
+}
+
+
+/*.header {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+}*/
+
+.logo {
+    grid-area: logo;
+}
+
+.h1 {
+    grid-area: h1;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}
+
+span {
+    font-size: 1.5em;
+}
+
+.support-worker-application-form {
+    display: grid;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0.5em 2.5em;
+}
+
+.personal-details,
+.employment-history,
+.driving-licence,
+.disciplinary-s-a,
+.hours-of-work,
+.criminal-Convictions-and-dbs-information,
+.references,
+.declaration,
+.general-data {
+    border-top: 2px rgba(0, 0, 0, 0.61) solid;
+    border-radius: 2px;
+    padding: 5em 5em 5em 1em;
+    align-items: flex-start;
+    gap: 1em 1em;
+}
+
+.personal-details {
+    border-top: none;
+    display: grid;
+    grid-template-columns: 18rem 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 1fr 0.5fr 0.5fr 0.5fr;
+    grid-auto-flow: row;
+    grid-template-areas: "header header header" "h2 title name" "h2 home-address home-address" "h2 mobile-number date-of-birth-section" "h2 e-mail ni-number" "h2 attached-cv-section attached-cv-section";
+}
+
+.header {
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border-bottom: 2px rgba(0, 0, 0, 0.61) solid;
+    padding-bottom: 20px;
+}
+
+.personal-details h2 {
+    grid-area: h2;
+}
+
+.personal-details .title {
+    grid-area: title;
+}
+
+.personal-details .name {
+    grid-area: name;
+}
+
+.personal-details .home-address {
+    grid-area: home-address;
+}
+
+.personal-details .date-of-birth-section {
+    grid-area: date-of-birth-section;
+}
+
+.personal-details .mobile-number {
+    grid-area: mobile-number;
+}
+
+.personal-details .e-mail {
+    grid-area: e-mail;
+}
+
+.personal-details .ni-number {
+    grid-area: ni-number;
+}
+
+.personal-details .attached-cv-section {
+    grid-area: attached-cv-section;
+}
+
+.general-data {
+    display: grid;
+    grid-template-columns: 18rem 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 1fr;
+    grid-auto-flow: row;
+    grid-template-areas: "h2 app-date available-from" "h2 position-applied location-applied" "h2 marital-status-options nationality-options" "h2 ethnic-origin-options religion-options" "h2 details-of-any-disabilities details-of-any-disabilities";
+}
+
+.app-date {
+    grid-area: app-date;
+}
+
+.available-from {
+    grid-area: available-from;
+}
+
+.position-applied {
+    grid-area: position-applied;
+}
+
+.location-applied {
+    grid-area: location-applied;
+}
+
+.marital-status-options {
+    grid-area: marital-status-options;
+}
+
+.nationality-options {
+    grid-area: nationality-options;
+}
+
+.ethnic-origin-options {
+    grid-area: ethnic-origin-options;
+}
+
+.religion-options {
+    grid-area: religion-options;
+}
+
+.details-of-any-disabilities {
+    grid-area: details-of-any-disabilities;
+}
+
+.h2 {
+    grid-area: h2;
+}
+
+.employment-history {
+    display: grid;
+    grid-template-columns: 18rem 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 20px;
+    grid-template-areas: "emp-des employment-history-entries" "emp-des employment-history-entries";
+}
+
+.emp-des {
+    grid-area: emp-des;
+}
+
+.employment-history-entries {
+    grid-area: employment-history-entries;
+}
+
+.duplicatable-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 1fr 1fr;
+    gap: 1em 1em;
+    grid-auto-flow: row;
+    grid-template-areas: "employer start-date end-date" "job-title hourly-rate ." "reason-for-leaving reason-for-leaving reason-for-leaving" "gaps-in-employment gaps-in-employment gaps-in-employment";
+}
+
+.employer {
+    grid-area: employer;
+}
+
+.start-date {
+    grid-area: start-date;
+}
+
+.end-date {
+    grid-area: end-date;
+}
+
+.job-title {
+    grid-area: job-title;
+}
+
+.hourly-rate {
+    grid-area: hourly-rate;
+}
+
+.reason-for-leaving {
+    grid-area: reason-for-leaving;
+}
+
+.gaps-in-employment {
+    grid-area: gaps-in-employment;
+}
+
+.duplicate {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 1fr 1fr;
+    gap: 1em 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 2px darkgrey solid;
+    grid-auto-flow: row;
+    grid-template-areas: "employer start-date end-date" "job-title hourly-rate ." "reason-for-leaving reason-for-leaving reason-for-leaving" "gaps-in-employment gaps-in-employment gaps-in-employment";
+}
+
+.employer {
+    grid-area: employer;
+}
+
+.start-date {
+    grid-area: start-date;
+}
+
+.end-date {
+    grid-area: end-date;
+}
+
+.job-title {
+    grid-area: job-title;
+}
+
+.hourly-rate {
+    grid-area: hourly-rate;
+}
+
+.reason-for-leaving {
+    grid-area: reason-for-leaving;
+}
+
+.gaps-in-employment {
+    grid-area: gaps-in-employment;
+}
+
+.driving-licence {
+    display: grid;
+    grid-template-columns: 18rem 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 0.5fr;
+    grid-auto-flow: row;
+    grid-template-areas: "h2 hold-driving-licence point-endorsements" "h2 reason-endorsement reason-endorsement" "h2 dl-nub .";
+}
+
+.driving-licence .h2 {
+    grid-area: h2;
+}
+
+.hold-driving-licence {
+    grid-area: hold-driving-licence;
+}
+
+.point-endorsements {
+    grid-area: point-endorsements;
+}
+
+.reason-endorsement {
+    grid-area: reason-endorsement;
+}
+
+.dl-nub {
+    grid-area: dl-nub;
+}
+
+.criminal-Convictions-and-dbs-information {
+    display: grid;
+    grid-template-columns: 18rem 1fr;
+    grid-template-rows: 0.5fr 1fr 0.5fr 0.5fr;
+    grid-auto-flow: row;
+    grid-template-areas: "h2 criminal-convictions" "h2 criminal-convictions-exp" "h2 DBS-certificate-number" "h2 reg-dbs-update";
+}
+
+.criminal-Convictions-and-dbs-information h2 {
+    grid-area: h2;
+}
+
+.criminal-convictions {
+    grid-area: criminal-convictions;
+}
+
+.criminal-convictions-exp {
+    grid-area: criminal-convictions-exp;
+}
+
+.DBS-certificate-number {
+    grid-area: DBS-certificate-number;
+}
+
+.reg-dbs-update {
+    grid-area: reg-dbs-update;
+}
+
+.disciplinary-s-a {
+    display: grid;
+    grid-template-columns: 18rem 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 1fr;
+    grid-auto-flow: row;
+    grid-template-areas: "h2 sub-to-disciplinary" "h2 ill-med-stop-work" "h2 sick-days" "h2 details-disciplinary-sickness";
+}
+
+.disciplinary-s-a h2 {
+    grid-area: h2;
+}
+
+.sub-to-disciplinary {
+    grid-area: sub-to-disciplinary;
+}
+
+.ill-med-stop-work {
+    grid-area: ill-med-stop-work;
+}
+
+.sick-days {
+    grid-area: sick-days;
+}
+
+.details-disciplinary-sickness {
+    grid-area: details-disciplinary-sickness;
+}
+
+.details-disciplinary-sickness {
+    grid-area: details-disciplinary-sickness;
+}
+
+.hours-of-work {
+    display: grid;
+    grid-template-columns: 18rem 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 1fr;
+    grid-auto-flow: row;
+    grid-template-areas: "h2 looking-for-work" "h2 if-full-time" "h2 aware-sleep-in" "h2 cant-sleep-in-reason" "h2 external-commitments";
+}
+
+.hours-of-work h2 {
+    grid-area: h2;
+}
+
+.looking-for-work {
+    grid-area: looking-for-work;
+}
+
+.if-full-time {
+    grid-area: if-full-time;
+}
+
+.aware-sleep-in {
+    grid-area: aware-sleep-in;
+}
+
+.cant-sleep-in-reason {
+    grid-area: cant-sleep-in-reason;
+}
+
+.external-commitments {
+    grid-area: external-commitments;
+}
+
+.references {
+    display: grid;
+    grid-template-columns: 18rem 1fr;
+    grid-template-rows: 0.2fr 1fr 1fr;
+    grid-template-areas: "h2 p" "reference1 reference1" "reference2 reference2";
+}
+
+.references h2 {
+    grid-area: h2;
+}
+
+.references .p {
+    grid-area: p;
+}
+
+.references .reference1 {
+    grid-area: reference1;
+}
+
+.references .reference2 {
+    grid-area: reference2;
+}
+
+.reference1 {
+    display: grid;
+    grid-template-columns: 18rem 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 0.5fr 0.5fr;
+    gap: 2em 2em;
+    border-top: 2px rgba(169, 169, 169, 0.349) solid;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    grid-auto-flow: row;
+    grid-template-areas: "h3 titles name" "h3 Address Address" "h3 mobile-number e-mail" "h3 relationship-to-you relationship-to-you";
+}
+
+.reference1 h3 {
+    grid-area: h3;
+    display: flex;
+    justify-content: right;
+}
+
+.reference1 .titles {
+    grid-area: titles;
+}
+
+.reference1 .name {
+    grid-area: name;
+}
+
+.reference1 .address1 {
+    grid-area: Address;
+}
+
+.reference1 .mobile-number {
+    grid-area: mobile-number;
+}
+
+.reference1 .e-mail {
+    grid-area: e-mail;
+}
+
+.reference1 .relationship-to-you {
+    grid-area: relationship-to-you;
+}
+
+.reference2 {
+    display: grid;
+    grid-template-columns: 18rem 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 0.5fr 0.5fr;
+    gap: 2em 2em;
+    border-top: 2px rgba(169, 169, 169, 0.349) solid;
+    padding-top: 2em;
+    grid-auto-flow: row;
+    grid-template-areas: "h3 titles name" "h3 Address Address" "h3 mobile-number e-mail" "h3 relationship-to-you relationship-to-you";
+}
+
+.reference2 h3 {
+    grid-area: h3;
+    display: flex;
+    justify-content: right;
+}
+
+.reference2 .titles {
+    grid-area: titles;
+}
+
+.reference2 .name {
+    grid-area: name;
+}
+
+.reference2 .address2 {
+    grid-area: Address;
+}
+
+.reference2 .mobile-number {
+    grid-area: mobile-number;
+}
+
+.reference2 .e-mail {
+    grid-area: e-mail;
+}
+
+.reference2 .relationship-to-you {
+    grid-area: relationship-to-you;
+}
+
+.emergency-contact {
+    display: grid;
+    grid-template-columns: 18rem 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 0.5fr 0.5fr;
+    gap: 2em 2em;
+    border-top: 2px rgba(169, 169, 169, 0.349) solid;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    grid-auto-flow: row;
+    grid-template-areas: "h2 titles name" "h2 Address Address" "h2 mobile-number e-mail" "h2 relationship-to-you relationship-to-you";
+}
+
+.emergency-contact h2 {
+    grid-area: h2;
+}
+
+.emergency-contact .titles {
+    grid-area: titles;
+}
+
+.emergency-contact .name {
+    grid-area: name;
+}
+
+.emergency-contact .address2 {
+    grid-area: Address;
+}
+
+.emergency-contact .mobile-number {
+    grid-area: mobile-number;
+}
+
+.emergency-contact .e-mail {
+    grid-area: e-mail;
+}
+
+.emergency-contact .relationship-to-you {
+    grid-area: relationship-to-you;
+}
+
+.declaration {
+    display: grid;
+    grid-template-columns: 18rem 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    grid-template-areas: "h2 dec-cont dec-cont dec-cont" ". dec-name dec-signed dec-today-date" ". . send .";
+}
+
+.declaration h2 {
+    grid-area: h2;
+}
+
+.declaration .dec-cont {
+    grid-area: dec-cont;
+}
+
+.declaration .dec-name {
+    grid-area: dec-name;
+}
+
+.declaration .dec-signed {
+    grid-area: dec-signed;
+}
+
+.declaration .dec-today-date {
+    grid-area: dec-today-date;
+}
+
+.declaration .dec-send {
+    grid-area: send;
+}
+
+#send:hover {
+    background-color: rgba(0, 255, 0, 0.11);
+}
+
+#send {
+    transition: background-color 1s ease, color 1s ease;
+}
+
+#duplicate-section:hover,
+a:hover,
+.send {
+    cursor: pointer;
+}
+
+#duplicate-section {
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 800px) {
+    .header {
+        display: none;
+    }
+    .personal-details {
+        border-top: none;
+        display: grid;
+        grid-template-columns: 0.2fr 0.2fr;
+        grid-template-rows: 1fr 0.2fr 0.5fr 0.8fr 0.5fr 0.5fr 0.5fr;
+        grid-auto-flow: row;
+        grid-template-areas: "header header" "h2 h2" "title name" "home-address home-address" "mobile-number date-of-birth-section" "e-mail ni-number" "attached-cv-section attached-cv-section";
+    }
+    .header {
+        grid-area: header;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        border-bottom: 2px rgba(0, 0, 0, 0.61) solid;
+        padding-bottom: 20px;
+    }
+    .personal-details h2 {
+        grid-area: h2;
+    }
+    .personal-details .title {
+        grid-area: title;
+    }
+    .personal-details .name {
+        grid-area: name;
+    }
+    .personal-details .home-address {
+        grid-area: home-address;
+    }
+    .personal-details .date-of-birth-section {
+        grid-area: date-of-birth-section;
+    }
+    .personal-details .mobile-number {
+        grid-area: mobile-number;
+    }
+    .personal-details .e-mail {
+        grid-area: e-mail;
+    }
+    .personal-details .ni-number {
+        grid-area: ni-number;
+    }
+    .personal-details .attached-cv-section {
+        grid-area: attached-cv-section;
+    }
+    .general-data {
+        display: grid;
+        grid-template-columns: 0.2fr 0.2fr;
+        grid-template-rows: 0.2fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr;
+        grid-auto-flow: row;
+        grid-template-areas: "h2 h2" "app-date available-from" "position-applied location-applied" "marital-status-options nationality-options" "ethnic-origin-options religion-options" "details-of-any-disabilities details-of-any-disabilities";
+    }
+    .app-date {
+        grid-area: app-date;
+    }
+    .available-from {
+        grid-area: available-from;
+    }
+    .position-applied {
+        grid-area: position-applied;
+    }
+    .location-applied {
+        grid-area: location-applied;
+    }
+    .marital-status-options {
+        grid-area: marital-status-options;
+    }
+    .nationality-options {
+        grid-area: nationality-options;
+    }
+    .ethnic-origin-options {
+        grid-area: ethnic-origin-options;
+    }
+    .religion-options {
+        grid-area: religion-options;
+    }
+    .details-of-any-disabilities {
+        grid-area: details-of-any-disabilities;
+    }
+    .h2 {
+        grid-area: h2;
+    }
+    .employment-history {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 1fr 1fr;
+        gap: 0px 20px;
+        grid-template-areas: "emp-des" "employment-history-entries" "employment-history-entries";
+    }
+    .emp-des {
+        grid-area: emp-des;
+    }
+    .employment-history-entries {
+        grid-area: employment-history-entries;
+    }
+    .duplicatable-section {
+        display: grid;
+        grid-template-columns: 0.2fr 0.2fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 1fr 1fr;
+        gap: 1em 1em;
+        grid-auto-flow: row;
+        grid-template-areas: "employer employer" "start-date end-date" "job-title hourly-rate" "reason-for-leaving reason-for-leaving" "gaps-in-employment gaps-in-employment";
+    }
+    .employer {
+        grid-area: employer;
+    }
+    .start-date {
+        grid-area: start-date;
+    }
+    .end-date {
+        grid-area: end-date;
+    }
+    .job-title {
+        grid-area: job-title;
+    }
+    .hourly-rate {
+        grid-area: hourly-rate;
+    }
+    .reason-for-leaving {
+        grid-area: reason-for-leaving;
+    }
+    .gaps-in-employment {
+        grid-area: gaps-in-employment;
+    }
+    .duplicate {
+        display: grid;
+        grid-template-columns: 0.2fr 0.2fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 1fr 1fr;
+        gap: 1em 1em;
+        grid-auto-flow: row;
+        grid-template-areas: "employer employer" "start-date end-date" "job-title hourly-rate" "reason-for-leaving reason-for-leaving" "gaps-in-employment gaps-in-employment";
+    }
+    .employer {
+        grid-area: employer;
+    }
+    .start-date {
+        grid-area: start-date;
+    }
+    .end-date {
+        grid-area: end-date;
+    }
+    .job-title {
+        grid-area: job-title;
+    }
+    .hourly-rate {
+        grid-area: hourly-rate;
+    }
+    .reason-for-leaving {
+        grid-area: reason-for-leaving;
+    }
+    .gaps-in-employment {
+        grid-area: gaps-in-employment;
+    }
+    .driving-licence {
+        display: grid;
+        grid-template-columns: 0.5fr 0.8fr;
+        grid-template-rows: 0.2fr 0.5fr 1fr 0.5fr;
+        grid-auto-flow: row;
+        grid-template-areas: "h2 h2" "hold-driving-licence point-endorsements" "reason-endorsement reason-endorsement" "dl-nub .";
+    }
+    .driving-licence .h2 {
+        grid-area: h2;
+    }
+    .hold-driving-licence {
+        grid-area: hold-driving-licence;
+    }
+    .point-endorsements {
+        grid-area: point-endorsements;
+    }
+    .reason-endorsement {
+        grid-area: reason-endorsement;
+    }
+    .dl-nub {
+        grid-area: dl-nub;
+    }
+    .criminal-Convictions-and-dbs-information {
+        display: grid;
+        grid-template-columns: 0.9fr;
+        grid-template-rows: 0.2fr 0.5fr 1fr 0.5fr 0.5fr;
+        grid-auto-flow: row;
+        grid-template-areas: "h2" "criminal-convictions" "criminal-convictions-exp" "DBS-certificate-number" "reg-dbs-update";
+    }
+    .criminal-Convictions-and-dbs-information h2 {
+        grid-area: h2;
+    }
+    .criminal-convictions {
+        grid-area: criminal-convictions;
+    }
+    .criminal-convictions-exp {
+        grid-area: criminal-convictions-exp;
+    }
+    .DBS-certificate-number {
+        grid-area: DBS-certificate-number;
+    }
+    .reg-dbs-update {
+        grid-area: reg-dbs-update;
+    }
+    .disciplinary-s-a {
+        display: grid;
+        grid-template-columns: 0.9fr;
+        grid-template-rows: 0.2fr 0.5fr 0.5fr 0.5fr 1fr;
+        grid-auto-flow: row;
+        grid-template-areas: "h2" "sub-to-disciplinary" "ill-med-stop-work" "sick-days" "details-disciplinary-sickness";
+    }
+    .disciplinary-s-a h2 {
+        grid-area: h2;
+    }
+    .sub-to-disciplinary {
+        grid-area: sub-to-disciplinary;
+    }
+    .ill-med-stop-work {
+        grid-area: ill-med-stop-work;
+    }
+    .sick-days {
+        grid-area: sick-days;
+    }
+    .details-disciplinary-sickness {
+        grid-area: details-disciplinary-sickness;
+    }
+    .details-disciplinary-sickness {
+        grid-area: details-disciplinary-sickness;
+    }
+    .hours-of-work {
+        display: grid;
+        grid-template-columns: 0.9fr;
+        grid-template-rows: 0.2fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr;
+        grid-auto-flow: row;
+        grid-template-areas: "h2" "looking-for-work" "if-full-time" "aware-sleep-in" "cant-sleep-in-reason" "external-commitments";
+    }
+    .hours-of-work h2 {
+        grid-area: h2;
+    }
+    .looking-for-work {
+        grid-area: looking-for-work;
+    }
+    .if-full-time {
+        grid-area: if-full-time;
+    }
+    .aware-sleep-in {
+        grid-area: aware-sleep-in;
+    }
+    .cant-sleep-in-reason {
+        grid-area: cant-sleep-in-reason;
+    }
+    .external-commitments {
+        grid-area: external-commitments;
+    }
+    .references {
+        display: grid;
+        grid-template-columns: 0.66fr;
+        grid-template-rows: 0.05fr 0.05fr 1fr 1fr;
+        grid-template-areas: "h2" "p" "reference1" "reference2";
+    }
+    .references h2 {
+        grid-area: h2;
+    }
+    .references .p {
+        grid-area: p;
+    }
+    .references .reference1 {
+        grid-area: reference1;
+    }
+    .references .reference2 {
+        grid-area: reference2;
+    }
+    .reference1 {
+        display: grid;
+        grid-template-columns: 0.2fr 0.2fr;
+        grid-template-rows: 0.2fr 0.5fr 1fr 0.5fr 0.5fr;
+        gap: 1em 1em;
+        border-top: 2px rgba(169, 169, 169, 0.349) solid;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        grid-auto-flow: row;
+        grid-template-areas: "h3 h3" "titles name" "Address Address" "mobile-number e-mail" "relationship-to-you relationship-to-you";
+    }
+    .reference1 h3 {
+        grid-area: h3;
+        display: flex;
+        justify-content: left;
+    }
+    .reference1 .titles {
+        grid-area: titles;
+    }
+    .reference1 .name {
+        grid-area: name;
+    }
+    .reference1 .Address1 {
+        grid-area: Address;
+    }
+    .reference1 .mobile-number {
+        grid-area: mobile-number;
+    }
+    .reference1 .e-mail {
+        grid-area: e-mail;
+    }
+    .reference1 .relationship-to-you {
+        grid-area: relationship-to-you;
+    }
+    .reference2 {
+        display: grid;
+        grid-template-columns: 0.2fr 0.2fr;
+        grid-template-rows: 0.2fr 0.5fr 1fr 0.5fr 0.5fr;
+        gap: 1em 1em;
+        border-top: 2px rgba(169, 169, 169, 0.349) solid;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        grid-auto-flow: row;
+        grid-template-areas: "h3 h3" "titles name" "Address Address" "mobile-number e-mail" "relationship-to-you relationship-to-you";
+    }
+    .reference2 h3 {
+        grid-area: h3;
+        display: flex;
+        justify-content: left;
+    }
+    .reference2 .titles {
+        grid-area: titles;
+    }
+    .reference2 .name {
+        grid-area: name;
+    }
+    .reference2 .Address2 {
+        grid-area: Address;
+    }
+    .reference2 .mobile-number {
+        grid-area: mobile-number;
+    }
+    .reference2 .e-mail {
+        grid-area: e-mail;
+    }
+    .reference2 .relationship-to-you {
+        grid-area: relationship-to-you;
+    }
+    .emergency-contact {
+        display: grid;
+        grid-template-columns: 0.2fr 0.2fr;
+        grid-template-rows: 0.2fr 0.5fr 1fr 0.5fr 0.5fr;
+        gap: 1em 1em;
+        border-top: 2px rgba(169, 169, 169, 0.349) solid;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        grid-auto-flow: row;
+        grid-template-areas: "h2 h2" "titles name" "Address Address" "mobile-number e-mail" "relationship-to-you relationship-to-you";
+    }
+    .emergency-contact h2 {
+        grid-area: h2;
+    }
+    .emergency-contact .titles {
+        grid-area: titles;
+    }
+    .emergency-contact .name {
+        grid-area: name;
+    }
+    .emergency-contact .Address2 {
+        grid-area: Address;
+    }
+    .emergency-contact .mobile-number {
+        grid-area: mobile-number;
+    }
+    .emergency-contact .e-mail {
+        grid-area: e-mail;
+    }
+    .emergency-contact .relationship-to-you {
+        grid-area: relationship-to-you;
+    }
+    .declaration {
+        display: grid;
+        grid-template-columns: 0.2fr 0.2fr;
+        grid-template-rows: 0.2fr 1fr 1fr 1fr;
+        grid-auto-flow: row;
+        grid-template-areas: "h2 h2" "dec-cont dec-cont" "dec-name dec-signed" "dec-today-date send";
+    }
+    .declaration h2 {
+        grid-area: h2;
+    }
+    .declaration .dec-cont {
+        grid-area: dec-cont;
+    }
+    .declaration .dec-name {
+        grid-area: dec-name;
+    }
+    .declaration .dec-signed {
+        grid-area: dec-signed;
+    }
+    .declaration .dec-today-date {
+        grid-area: dec-today-date;
+    }
+    .declaration .dec-send {
+        grid-area: send;
+    }
+    .personal-details,
+    .employment-history,
+    .driving-licence,
+    .disciplinary-s-a,
+    .hours-of-work,
+    .criminal-Convictions-and-dbs-information,
+    .references,
+    .declaration,
+    .general-data {
+        border-top: 2px rgba(0, 0, 0, 0.61) solid;
+        border-radius: 2px;
+        padding: 2em 2em 2em 0.05em;
+        align-items: flex-start;
+        gap: 1em 1em;
+    }
+    .personal-details {
+        border-top: none;
+    }
+    input[type=text] {
+        width: var(--input-width);
+        height: 3em;
+        border-radius: 5px;
+        padding: 12px 10px;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+    }
+    input[type=radio] {
+        width: var(--input-width-radio-check-box);
+        height: 2em;
+        border-radius: 5px;
+        padding: 12px 10px;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+    }
+    input[type=checkbox] {
+        width: var(--input-width-radio-check-box);
+        height: 2em;
+        border-radius: 5px;
+        padding: 12px 10px;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+    }
+    label {
+        font-size: 1.5em;
+        padding: 12px 10px;
+    }
+    input[type=date] {
+        width: var(--input-width);
+        height: 3em;
+        border-radius: 5px;
+        padding: 12px 10px;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+    }
+    input[type=tel] {
+        width: var(--input-width);
+        height: 3em;
+        border-radius: 5px;
+        padding: 12px 10px;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+    }
+    input[type=e-mail] {
+        width: var(--input-width);
+        height: 3em;
+        border-radius: 5px;
+        padding: 12px 10px;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+    }
+    input[type=number] {
+        width: var(--input-width);
+        height: 3em;
+        border-radius: 5px;
+        padding: 12px 10px;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+    }
+    textarea {
+        border-radius: 5px;
+        width: 100%;
+        height: 150px;
+        padding: 12px 10px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        resize: none;
+    }
+    .address {
+        border-radius: 5px;
+        width: 100%;
+        height: 100px;
+        padding: 12px 10px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        resize: none;
+    }
+    #title {
+        width: var(--input-width);
+        height: 3em;
+        border-radius: 5px;
+        padding: 12px 10px;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+    }
+    input[type=submit] {
+        width: var(--input-width);
+        height: 3em;
+        border-radius: 5px;
+        padding: 12px 10px;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+    }
+    .radio-button-container,
+    .checkbox-button-container {
+        display: inline-flex;
+        align-items: center;
+    }
+    .send {
+        width: var(--input-width);
+        height: 3em;
+    }
+}
