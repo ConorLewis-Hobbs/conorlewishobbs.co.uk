@@ -13,10 +13,10 @@ get_header();
       <h1 class="front-page-sub">WEB DEVELOPER</h1>
     </div>
     <div class="article-nav-section article-section">
-      <button class="article-nav-button interactable" data-type="link" type="button" onclick="handleLeftClick()">
+      <button class="article-nav-button interactable" data-type="link" aria-label="left" type="button" onclick="handleLeftClick()">
         <i class="fa-solid fa-arrow-left-long"></i>
       </button>
-      <button class="article-nav-button interactable" data-type="link" type="button" onclick="handleRightClick()">
+      <button class="article-nav-button interactable" data-type="link" aria-label="right" type="button" onclick="handleRightClick()">
         <i class="fa-solid fa-arrow-right-long"></i>
       </button>
     </div>
@@ -31,10 +31,10 @@ get_header();
         <h2 class="front-page-sub">WEB DEVELOPER</h2>
     </div>
     <div class="article-nav-section article-section">
-      <button class="article-nav-button interactable" data-type="link" type="button" onclick="handleLeftClick()">
+      <button class="article-nav-button interactable" data-type="link" aria-label="left" type="button" onclick="handleLeftClick()">
         <i class="fa-solid fa-arrow-left-long"></i>
       </button>
-      <button class="article-nav-button interactable" data-type="link" type="button" onclick="handleRightClick()">
+      <button class="article-nav-button interactable" data-type="link" aria-label="right" type="button" onclick="handleRightClick()">
         <i class="fa-solid fa-arrow-right-long"></i>
       </button>
     </div>
@@ -49,10 +49,10 @@ get_header();
       <h3 class="front-page-sub">WEB DEVELOPER</h3>
     </div>
     <div class="article-nav-section article-section">
-      <button class="article-nav-button interactable" data-type="link" type="button" onclick="handleLeftClick()">
+      <button class="article-nav-button interactable" data-type="link" aria-label="left" type="button" onclick="handleLeftClick()">
         <i class="fa-solid fa-arrow-left-long"></i>
       </button>
-      <button class="article-nav-button interactable" data-type="link" type="button" onclick="handleRightClick()">
+      <button class="article-nav-button interactable" data-type="link" aria-label="right" type="button" onclick="handleRightClick()">
         <i class="fa-solid fa-arrow-right-long"></i>
       </button>
     </div>
@@ -67,10 +67,10 @@ get_header();
       <h4 class="front-page-sub">WEB DEVELOPER</h4>
     </div>
     <div class="article-nav-section article-section">
-      <button class="article-nav-button interactable" data-type="link" type="button" onclick="handleLeftClick()">
+      <button class="article-nav-button interactable" data-type="link" aria-label="left" type="button" onclick="handleLeftClick()">
         <i class="fa-solid fa-arrow-left-long"></i>
       </button>
-      <button class="article-nav-button interactable" data-type="link" type="button" onclick="handleRightClick()">
+      <button class="article-nav-button interactable" data-type="link" aria-label="right" type="button" onclick="handleRightClick()">
         <i class="fa-solid fa-arrow-right-long"></i>
       </button>
     </div>

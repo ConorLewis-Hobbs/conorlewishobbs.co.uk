@@ -12,10 +12,10 @@
       <h2><a class="interactable" data-type="link" href="https://www.goodnamebrewing.co.uk" target="_blank">Goodname Brewing</a></h2>
     </div>
     <div class="article-nav-section article-section">
-      <button class="article-nav-button interactable" data-type="link" type="button" onclick="handleLeftClick()">
+      <button class="article-nav-button interactable" data-type="link" aria-label="left" type="button" onclick="handleLeftClick()">
         <i class="fa-solid fa-arrow-left-long"></i>
       </button>
-      <button class="article-nav-button interactable" data-type="link" type="button" onclick="handleRightClick()">
+      <button class="article-nav-button interactable" data-type="link" aria-label="right" type="button" onclick="handleRightClick()">
         <i class="fa-solid fa-arrow-right-long"></i>
       </button>
     </div>
@@ -31,10 +31,10 @@
         <h2><a class="interactable" data-type="link" href="https://www.offseasonclothing.co.uk/password" target="_blank">OFFseason</a></h2>
     </div>
     <div class="article-nav-section article-section">
-      <button class="article-nav-button interactable" data-type="link" type="button" onclick="handleLeftClick()">
+      <button class="article-nav-button interactable" data-type="link" aria-label="left" type="button" onclick="handleLeftClick()">
         <i class="fa-solid fa-arrow-left-long"></i>
       </button>
-      <button class="article-nav-button interactable" data-type="link" type="button" onclick="handleRightClick()">
+      <button class="article-nav-button interactable" data-type="link" aria-label="right" type="button" onclick="handleRightClick()">
         <i class="fa-solid fa-arrow-right-long"></i>
       </button>
     </div>
@@ -49,10 +49,10 @@
         <h2><a class="interactable" data-type="link" href="https://conorlewishobbs.co.uk/asd-support-form" target="_blank">ASD support form</a></h2>
     </div>
     <div class="article-nav-section article-section">
-      <button class="article-nav-button interactable" data-type="link" type="button" onclick="handleLeftClick()">
+      <button class="article-nav-button interactable" data-type="link" aria-label="left" type="button" onclick="handleLeftClick()">
         <i class="fa-solid fa-arrow-left-long"></i>
       </button>
-      <button class="article-nav-button interactable" data-type="link" type="button" onclick="handleRightClick()">
+      <button class="article-nav-button interactable" data-type="link" aria-label="right" type="button" onclick="handleRightClick()">
         <i class="fa-solid fa-arrow-right-long"></i>
       </button>
     </div>

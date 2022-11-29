@@ -8,13 +8,13 @@ get_header();
       <h1>Please feel free to get in touch!</h1>
       <p>For more information about previous projects, future projects or collaborations send me an email and i'll get back to you as soon as possible</p>
       <div class="social-links">
-        <a class="interactable" data-type="link" href="https://github.com/ConorLewis-Hobbs">
+        <a class="interactable" data-type="link" aria-label="Github" href="https://github.com/ConorLewis-Hobbs">
         <i class="fa-brands fa-github fa-lg"></i>
         </a>
-        <a class="interactable" data-type="link" href="https://twitter.com/Radionkeel">
+        <a class="interactable" data-type="link" aria-label="Twitter" href="https://twitter.com/Radionkeel">
         <i class="fa-brands fa-twitter"></i>
         </a>    
-        <a class="interactable" data-type="link" href="https://www.linkedin.com/in/conor-lewis-hobbs-a59ab4139/">
+        <a class="interactable" data-type="link" aria-label="Linkdin" href="https://www.linkedin.com/in/conor-lewis-hobbs-a59ab4139/">
         <i class="fa-brands fa-linkedin"></i>
         </a>
       </div>

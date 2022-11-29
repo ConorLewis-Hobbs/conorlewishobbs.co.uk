@@ -194,19 +194,19 @@
     }
     
     main>article:first-child>.article-image-section {
-        background-image: url("http://staging.conorlewishobbs.co.uk/wp-content/uploads/2022/11/trees.webp");
+        background-image: url("http://staging.conorlewishobbs.co.uk/wp-content/uploads/2022/11/pexels-photo-1423600.webp");
     }
     
     main>article:nth-child(2)>.article-image-section {
-        background-image: url("http://staging.conorlewishobbs.co.uk/wp-content/uploads/2022/11/rainy-forest.png");
+        background-image: url("http://staging.conorlewishobbs.co.uk/wp-content/uploads/2022/11/rainy-forest.webp");
     }
     
     main>article:nth-child(3)>.article-image-section {
-        background-image: url("http://staging.conorlewishobbs.co.uk/wp-content/uploads/2022/11/forest-floor.png");
+        background-image: url("http://staging.conorlewishobbs.co.uk/wp-content/uploads/2022/11/forest-floor.webp");
     }
     
     main>article:nth-child(4)>.article-image-section {
-        background-image: url("http://staging.conorlewishobbs.co.uk/wp-content/uploads/2022/11/ake-forest.png");
+        background-image: url("http://staging.conorlewishobbs.co.uk/wp-content/uploads/2022/11/ake-forest.webp");
     }
     
     main>article>.article-image-section {
