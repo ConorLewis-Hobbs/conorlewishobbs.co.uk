@@ -32,11 +32,11 @@ function conor_theme_support(){
 function conor_register_styles(){
     // wp_enqueue_style('asd-support-form', get_template_directory_uri() . "/asd-support-form.css", array(), '1.0', 'all');
     wp_enqueue_style('conor-style', get_template_directory_uri() . "/style.css", array(), '1.0', 'all');
-    wp_enqueue_style('conor-fonts1', "https://fonts.googleapis.com", array(), '1.0', 'all');
-    wp_enqueue_style('conor-fonts2', "https://fonts.gstatic.com", array(), '1.0', 'all');
+    // wp_enqueue_style('conor-fonts1', "https://fonts.googleapis.com", array(), '1.0', 'all');
+    // wp_enqueue_style('conor-fonts2', "https://fonts.gstatic.com", array(), '1.0', 'all');
     wp_enqueue_style('conor-googleFonts', "https://fonts.google.com/specimen/Lato", array(), '1.0', 'all');
-    wp_enqueue_style('conor-googleFonts', "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap", array(), '1.0', 'all');
-    wp_enqueue_style('conor-googleFonts', "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap", array(), '1.0', 'all');
+    wp_enqueue_style('conor-googleFonts', "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap", array(), 'all');
+    wp_enqueue_style('conor-googleFonts', "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap", array(), 'all');
 }
 
 function conor_register_scripts(){

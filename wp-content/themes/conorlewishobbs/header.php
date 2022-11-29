@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Welcome to Conor Lewis-Hobbs's porfolio website. I'm a web devloper based in Loughborough U.K. come say hello">
+    <link rel="shortcut icon" href="#">
         <?php wp_head(); ?>
     </head>
     <body>
