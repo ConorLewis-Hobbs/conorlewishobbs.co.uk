@@ -591,19 +591,24 @@
     }
     
     main>article:first-child>.page-about-image {
-        background-image: url("http://staging.conorlewishobbs.co.uk/wp-content/uploads/2022/11/conor-rock.jpeg");
+        background-image: url("http://staging.conorlewishobbs.co.uk/wp-content/uploads/2022/11/thumbnail_950fb074-b235-4a95-90bc-a5cadaa7431f-1.jpg");
     }
     
     main>article:nth-child(2)>.page-about-image {
+        background-position: 50% 70%;
         background-image: url("http://staging.conorlewishobbs.co.uk/wp-content/uploads/2022/11/conor-climbing.jpg");
     }
     
     main>article:nth-child(3)>.page-about-image {
+        background-size: contain;
+        background-repeat: no-repeat;
         background-image: url("http://staging.conorlewishobbs.co.uk/wp-content/uploads/2022/11/bjj-standing.jpg");
     }
     
     main>article:nth-child(4)>.page-about-image {
-        background-image: url("http://staging.conorlewishobbs.co.uk/wp-content/uploads/2022/11/thumbnail_950fb074-b235-4a95-90bc-a5cadaa7431f-e1669140701203.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url("http://staging.conorlewishobbs.co.uk/wp-content/uploads/2022/11/FightingGame-e1669729448930.png");
     }
     
     @media(max-width: 625px) {
